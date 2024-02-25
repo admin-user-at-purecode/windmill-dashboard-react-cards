@@ -34,19 +34,19 @@
         },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
-            "description": "contains icon heading and count"
+            "location": "below the cardWithHeading",
+            "description": "contains icon heading and count, aligned in a flex container"
         },
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "bottom right of the page",
             "description":"contains text"
         },
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "below the CTA",
             "description": "contains heading and text"
         },
 

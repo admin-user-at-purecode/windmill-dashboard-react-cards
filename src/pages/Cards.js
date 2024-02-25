@@ -13,18 +13,32 @@ function Cards() {
 
       <CTA />
 
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Big section cards</h2>
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Cards with title</h2>
 
-      
+      <div className="grid gap-6 mb-8 md:grid-cols-2">
+        <Card className="cardWithHeading">
+          <CardBody>
+            <p className="mb-4 font-semibold text-gray-600 dark:text-gray-300">Revenue</p>
+            <p className="text-gray-600 dark:text-gray-400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
+              numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
+              ratione! Ratione, nihil dolorum.
+            </p>
+          </CardBody>
+        </Card>
 
-      <Card className="mb-8 shadow-md fullWidthCard">
-        <CardBody>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Large, full width sections goes here
-          </p>
-        </CardBody>
-      </Card>
-      
+        <Card colored className="text-white bg-purple-600 cardWithHeading">
+          <CardBody>
+            <p className="mb-4 font-semibold">Colored card</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
+              numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
+              ratione! Ratione, nihil dolorum.
+            </p>
+          </CardBody>
+        </Card>
+      </div>
+
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Responsive cards</h2>
    
 
@@ -66,32 +80,22 @@ function Cards() {
         </InfoCard>
       </div>
 
+
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Big section cards</h2>
+
       
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Cards with title</h2>
 
-      <div className="grid gap-6 mb-8 md:grid-cols-2">
-        <Card className="cardWithHeading">
-          <CardBody>
-            <p className="mb-4 font-semibold text-gray-600 dark:text-gray-300">Revenue</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
-              numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
-              ratione! Ratione, nihil dolorum.
-            </p>
-          </CardBody>
-        </Card>
-
-        <Card colored className="text-white bg-purple-600 cardWithHeading">
-          <CardBody>
-            <p className="mb-4 font-semibold">Colored card</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, cum commodi a omnis
-              numquam quod? Totam exercitationem quos hic ipsam at qui cum numquam, sed amet
-              ratione! Ratione, nihil dolorum.
-            </p>
-          </CardBody>
-        </Card>
-      </div>
+      <Card className="mb-8 shadow-md fullWidthCard">
+        <CardBody>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
+            Large, full width sections goes here
+          </p>
+        </CardBody>
+      </Card>
+      
+      
+      
+      
     </>
   )
 }
