@@ -11,6 +11,21 @@ function Cards() {
         Cards
       </h1>
 
+      <CTA />
+
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Big section cards
+      </h2>
+
+      <Card className="mb-8 shadow-md fullWidthCard">
+        <CardBody>
+          <p className="text-sm text-gray-600 dark:text-gray-400">
+            Large, full width sections goes here
+          </p>
+        </CardBody>
+      </Card>
+
+
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
         Cards with title
       </h2>
@@ -43,20 +58,6 @@ function Cards() {
         </Card>
       </div>
 
-      <CTA />
-
-
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
-        Big section cards
-      </h2>
-
-      <Card className="mb-8 shadow-md fullWidthCard">
-        <CardBody>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Large, full width sections goes here
-          </p>
-        </CardBody>
-      </Card>
 
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
         Responsive cards

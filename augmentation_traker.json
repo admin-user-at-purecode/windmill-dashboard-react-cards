@@ -51,12 +51,12 @@
         },
         "cardWithHeading":{
             "count": 2,
-            "location": "below the pageTitle",
+            "location": "below the fullWidthCard",
             "description": "contains heading and text"
         },
         "CTA":{
             "count":1,
-            "location":"below the cardWithHeader",
+            "location":"below the pageTitle",
             "description": "contains icon , text and link"
         },
 
