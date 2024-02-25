@@ -32,15 +32,17 @@
             "location": "left of the page",
             "description": "List items in the conatiner and Dropdown"
         },
+
+
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "below the CTA",
             "description": "contains icon heading and count"
         },
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location":"below the Header and right of the Sidebar",
             "description":"contains text"
         },
 
@@ -58,7 +60,7 @@
 
         "pageTitle":{
             "count":1,
-            "location":"below the Header and right of the Sidebar"
+          
         }
     }
 }

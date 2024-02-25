@@ -8,14 +8,10 @@ import InfoCard, { CTA, RoundIcon } from '../components/cards/InfoCard'
 function Cards() {
   return (
     <>
-      <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Cards</h1>
-     
-
-      <CTA />
 
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Big section cards</h2>
 
-      
+            
 
       <Card className="mb-8 shadow-md fullWidthCard">
         <CardBody>
@@ -24,6 +20,13 @@ function Cards() {
           </p>
         </CardBody>
       </Card>
+      
+      <h1 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200 pageTitle">Cards</h1>
+     
+
+      <CTA />
+
+
       
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Responsive cards</h2>
    
