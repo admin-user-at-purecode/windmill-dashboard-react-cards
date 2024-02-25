@@ -1,0 +1,64 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },
+    "component_names":
+    [
+        "Header",
+        "Sidebar",
+        "InfoCard",
+        "Card",
+        "fullWidthCard",
+        "cardWithHeading",
+        "CTA",
+        "pageTitle"
+
+    ],
+    "component_counts":
+    {
+        "Header" : {
+            "count": 1,
+            "location": "Top of the page",
+            "description": "Title, Search, dropdown in flex container"
+        },
+        "Sidebar" : {
+            "count": 1,
+            "location": "left of the page",
+            "description": "List items in the conatiner and Dropdown"
+        },
+        "InfoCard":{
+            "count": 4,
+            "location": "above the bottom cards in the content page ",
+            "description": "contains icon heading and count"
+        },
+
+        "fullWidthCard":{
+            "count":1,
+            "location": "below the CTA",
+            "description":"contains text"
+        },
+
+        "cardWithHeading":{
+            "count": 2,
+            "location": "bottom of the page",
+            "description": "contains heading and text"
+        },
+
+        "CTA":{
+            "count":1,
+            "location":"below the pageTitle",
+            "description": "contains icon , text and link"
+        },
+
+        "pageTitle":{
+            "count":1,
+            "location":"below the Header and right of the Sidebar"
+        }
+    }
+}
