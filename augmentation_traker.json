@@ -32,6 +32,11 @@
             "location": "left of the page",
             "description": "List items in the conatiner and Dropdown"
         },
+        "pageTitle":{
+            "count":1,
+            "location":"below the Header and right of the Sidebar",
+
+        },
 
 
         "InfoCard":{
@@ -39,28 +44,21 @@
             "location": "below the CTA",
             "description": "contains icon heading and count"
         },
-
         "fullWidthCard":{
             "count":1,
-            "location":"below the Header and right of the Sidebar",
+            "location": "below the pageTitle",
             "description":"contains text"
         },
-
         "cardWithHeading":{
             "count": 2,
             "location": "bottom of the page",
             "description": "contains heading and text"
         },
-
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the fullWidthCard",
             "description": "contains icon , text and link"
         },
 
-        "pageTitle":{
-            "count":1,
-          
-        }
     }
 }
