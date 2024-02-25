@@ -41,22 +41,22 @@
 
         "InfoCard":{
             "count": 4,
-            "location": "below the pageTitle",
+            "location": "bottom of the page to right of Sidebar",
             "description": "contains icon heading and count"
         },
         "fullWidthCard":{
             "count":1,
-            "location": "bottom of the page to the right of Sidebar",
+            "location": "below the CTA",
             "description":"contains text"
         },
         "cardWithHeading":{
             "count": 2,
-            "location": "below of the InfoCard",
+            "location": "below the pageTitle",
             "description": "contains heading and text"
         },
         "CTA":{
             "count":1,
-            "location":"above the fullWidthCard",
+            "location":"below the cardWithHeader",
             "description": "contains icon , text and link"
         },
 
