@@ -45,7 +45,7 @@
         },
 
         "cardWithHeading":{
-            "count": 2,
+            "count": 4,
             "location": "bottom of the page",
             "description": "contains heading and text"
         },
