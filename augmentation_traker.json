@@ -39,7 +39,7 @@
         },
 
         "fullWidthCard":{
-            "count":1,
+            "count":2,
             "location": "below the CTA",
             "description":"contains text"
         },
