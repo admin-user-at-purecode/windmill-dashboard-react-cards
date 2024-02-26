@@ -19,7 +19,7 @@ function Cards() {
 
       <Card className="mb-8 shadow-md fullWidthCard">
         <CardBody>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600  dark:text-gray-400">
             Large, full width sections goes here
           </p>
         </CardBody>
@@ -28,7 +28,7 @@ function Cards() {
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">Responsive cards</h2>
    
 
-      <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-2">
         <InfoCard title="Total clients" value="6389">
           <RoundIcon
             icon={PeopleIcon}
