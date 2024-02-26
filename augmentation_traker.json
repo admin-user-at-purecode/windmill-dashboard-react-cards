@@ -34,7 +34,7 @@
         },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "bottom of the page to the right of Sidebar",
             "description": "contains icon heading and count"
         },
 
@@ -46,7 +46,7 @@
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "below the fullWidthCard",
             "description": "contains heading and text"
         },
 
