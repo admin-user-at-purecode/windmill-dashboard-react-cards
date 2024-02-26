@@ -33,14 +33,14 @@
             "description": "List items in the conatiner and Dropdown"
         },
         "InfoCard":{
-            "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "count": 8,
+            "location": "below the pageTitle",
             "description": "contains icon heading and count"
         },
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "below the InfoCard",
             "description":"contains text"
         },
 
@@ -52,7 +52,7 @@
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the fullWidthPage",
             "description": "contains icon , text and link"
         },
 
