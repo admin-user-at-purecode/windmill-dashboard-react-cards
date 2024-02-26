@@ -34,7 +34,7 @@
         },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "below the pageTitle",
             "description": "contains icon heading and count"
         },
 
@@ -51,8 +51,8 @@
         },
 
         "CTA":{
-            "count":1,
-            "location":"below the pageTitle",
+            "count":2,
+            "location":"below the InfoCard",
             "description": "contains icon , text and link"
         },
 
