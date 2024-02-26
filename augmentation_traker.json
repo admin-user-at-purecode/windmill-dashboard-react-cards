@@ -34,25 +34,25 @@
         },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "below the cardWithHeader",
             "description": "contains icon heading and count"
         },
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "bottom of the page to right of Sidebar",
             "description":"contains text"
         },
 
         "cardWithHeading":{
-            "count": 2,
-            "location": "bottom of the page",
+            "count": 4,
+            "location": "below the pageTitle",
             "description": "contains heading and text"
         },
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the InfoCard",
             "description": "contains icon , text and link"
         },
 
