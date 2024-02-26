@@ -33,7 +33,7 @@
             "description": "List items in the conatiner and Dropdown"
         },
         "InfoCard":{
-            "count": 4,
+            "count": 8,
             "location": "above the bottom cards in the content page ",
             "description": "contains icon heading and count"
         },
