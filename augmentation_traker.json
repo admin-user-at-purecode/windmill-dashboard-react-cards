@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "validationForm"
 
     ],
     "component_counts":
@@ -32,9 +33,21 @@
             "location": "left of the page",
             "description": "List items in the conatiner and Dropdown"
         },
+        "validationForm":{
+            "count":1,
+            "location":"below the pageTitle",
+            "description":"contains three validation inputs",
+            "children":{
+                "input":{
+                    "count":3,
+                    "location":"all three inputs placed one below another",
+                    "description":"contains label and input"
+                }
+            }
+        },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "above the cardWithHeading",
             "description": "contains icon heading and count"
         },
 
@@ -52,7 +65,7 @@
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the validationForm",
             "description": "contains icon , text and link"
         },
 
