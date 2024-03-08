@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "inputWithIconContainer"
 
     ],
     "component_counts":
@@ -36,6 +37,19 @@
             "count": 4,
             "location": "above the bottom cards in the content page ",
             "description": "contains icon heading and count"
+        },
+
+        "inputWithIconContainer":{
+            "count":1,
+            "location":"below the validationForm",
+            "description":"contains input with icons",
+            "children":{
+                "inputWithIcon":{
+                    "count":2,
+                    "location":"all two inputs placed one below another",
+                    "description":"contains input and icon"
+                }
+            }
         },
 
         "fullWidthCard":{

@@ -19,6 +19,8 @@ import { ReactComponent as CartIcon } from './cart.svg'
 import { ReactComponent as ChatIcon } from './chat.svg'
 import { ReactComponent as MoneyIcon } from './money.svg'
 import { ReactComponent as PeopleIcon } from './people.svg'
+import { ReactComponent as MailIcon } from './mail.svg'
+
 export {
   ButtonsIcon,
   CardsIcon,
@@ -40,5 +42,6 @@ export {
   CartIcon,
   ChatIcon,
   MoneyIcon,
-  PeopleIcon
+  PeopleIcon,
+  MailIcon
 }
