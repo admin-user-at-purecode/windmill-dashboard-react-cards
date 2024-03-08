@@ -25,7 +25,7 @@
         "Header" : {
             "count": 1,
             "location": "Top of the page",
-            "description": "Title, Search, dropdown in flex container"
+            "description": "Title, Search"
         },
         "Sidebar" : {
             "count": 1,
@@ -60,5 +60,6 @@
             "count":1,
             "location":"below the Header and right of the Sidebar"
         }
-    }
+    },
+    "screen_and_layout_augmentations":["Removed Dropdown functionality from Header"]
 }
