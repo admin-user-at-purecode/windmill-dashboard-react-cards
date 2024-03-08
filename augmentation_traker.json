@@ -60,5 +60,6 @@
             "count":1,
             "location":"below the Header and right of the Sidebar"
         }
-    }
+    },
+    "screen_and_layout_augmentations":["Removed Light and Dark theme functionality from Header"]
 }
