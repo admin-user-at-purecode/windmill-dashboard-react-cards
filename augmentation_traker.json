@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "microInteractionsContainer"
 
     ],
     "component_counts":
@@ -32,27 +33,61 @@
             "location": "left of the page",
             "description": "List items in the conatiner and Dropdown"
         },
+        "microInteractionsContainer":{
+            "count":1,
+            "location":"bottom of the page",
+            "description":"contains inputs, radiogroup, select, multiselect, textarea and checkbox",
+            "children":{
+                "nameInput":{
+                    "count":2,
+                    "location":"at the top in conatiner",
+                    "description":"input with label"
+                },
+                "radioGroup":{
+                    "count":1,
+                    "location":"below the input",
+                    "description":"contains three Label elements which has radio inputs with respective span for each"
+                },
+                "select":{
+                    "count":1,
+                    "location":"below the radioGroup",
+                },
+                "multiselect":{
+                    "count":1,
+                    "location":"below the select"
+                },
+                "textarea":{
+                    "count":1,
+                    "location":"below the multiselect"
+                },
+                "checkbox":{
+                    "count":1,
+                    "location":"bottom of the container"
+                }
+
+            }
+        },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "at the top of page, below the Header",
             "description": "contains icon heading and count"
         },
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "below the InfoCard",
             "description":"contains text"
         },
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "below the CTA",
             "description": "contains heading and text"
         },
 
         "CTA":{
             "count":1,
-            "location":"below the pageTitle",
+            "location":"below the fullWidthCard",
             "description": "contains icon , text and link"
         },
 
