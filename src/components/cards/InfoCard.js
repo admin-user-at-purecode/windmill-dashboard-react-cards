@@ -28,7 +28,7 @@ export function CTA() {
         <span>Star this project on GitHub</span>
       </div>
       <span>
-        View more <span dangerouslySetInnerHTML={{ __html: '&RightArrow;' }}></span>
+        View more <span dangerouslySetInnerHTML={{ __html: '&RightArrow;' }} ></span>
       </span>
     </a>
   )

@@ -40,7 +40,7 @@
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "beside the CTA",
             "description":"contains text"
         },
 
