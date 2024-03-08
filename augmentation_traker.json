@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "inputWithButtonContainer"
 
     ],
     "component_counts":
@@ -34,7 +35,7 @@
         },
         "InfoCard":{
             "count": 4,
-            "location": "above the bottom cards in the content page ",
+            "location": "above the cardWithHeading",
             "description": "contains icon heading and count"
         },
 
@@ -59,6 +60,18 @@
         "pageTitle":{
             "count":1,
             "location":"below the Header and right of the Sidebar"
+        },
+        "inputWithButtonContainer":{
+            "count":1,
+            "location":"below the fullWidthCard",
+            "description":"contains input with buttons",
+            "children":{
+                "inputWithButton":{
+                    "count":2,
+                    "location":"all two inputs placed one below another",
+                    "description":"contains input and button"
+                }
+            }
         }
     }
 }
