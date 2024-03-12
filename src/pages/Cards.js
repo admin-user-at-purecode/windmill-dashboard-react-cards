@@ -6,12 +6,7 @@ import { CartIcon, ChatIcon, MoneyIcon, PeopleIcon } from "../assets/icons";
 import InfoCard, { CTA, RoundIcon } from "../components/cards/InfoCard";
 import { Line } from "react-chartjs-2";
 
-import {
-  doughnutOptions,
-  lineOptions,
-  doughnutLegends,
-  lineLegends,
-} from "../mock_data/chartsData";
+import { lineOptions, lineLegends } from "../mock_data/chartsData";
 
 function Cards() {
   return (
@@ -108,6 +103,9 @@ function Cards() {
         </Card>
       </div>
 
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Chart
+      </h2>
       <div className="grid mb-8 md:grid-cols-2">
         <ChartCard title="Traffic">
           <Line {...lineOptions} />
