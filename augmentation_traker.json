@@ -64,7 +64,7 @@
         "ChartCard":{
             "count":1,
             "location": "at the bottom of the page",
-            "description": "Graph, piechart of items"
+            "description": "piechart of items"
         }
     }
 }
