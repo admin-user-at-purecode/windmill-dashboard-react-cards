@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "ChartCard"
 
     ],
     "component_counts":
@@ -40,13 +41,13 @@
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "below the ChartCard",
             "description":"contains text"
         },
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "at the bottom of the page",
             "description": "contains heading and text"
         },
 
@@ -59,6 +60,11 @@
         "pageTitle":{
             "count":1,
             "location":"below the Header and right of the Sidebar"
+        },  
+        "ChartCard":{
+            "count":1,
+            "location": "below the CTA",
+            "description": "piechart of items"
         }
     }
 }
