@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "ChartCard"
 
     ],
     "component_counts":
@@ -46,7 +47,7 @@
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "above the ChartCard",
             "description": "contains heading and text"
         },
 
@@ -59,6 +60,11 @@
         "pageTitle":{
             "count":1,
             "location":"below the Header and right of the Sidebar"
+        },  
+        "ChartCard":{
+            "count":1,
+            "location": "at the bottom of the page",
+            "description": "Graph, piechart of items"
         }
     }
 }
