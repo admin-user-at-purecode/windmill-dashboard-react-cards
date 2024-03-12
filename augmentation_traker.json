@@ -41,13 +41,13 @@
 
         "fullWidthCard":{
             "count":1,
-            "location": "below the CTA",
+            "location": "below the ChartCard",
             "description":"contains text"
         },
 
         "cardWithHeading":{
             "count": 2,
-            "location": "above ChartCard",
+            "location": "at the bottom of the page",
             "description": "contains heading and text"
         },
 
@@ -63,7 +63,7 @@
         },
         "ChartCard":{
             "count":2,
-            "location": "at the bottom of the page",
+            "location": "below the CTA",
             "description": "Graph, piechart of items"
         }
     }

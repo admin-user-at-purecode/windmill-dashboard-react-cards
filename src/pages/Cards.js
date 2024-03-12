@@ -22,6 +22,21 @@ function Cards() {
       <CTA />
 
       <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+        Charts
+      </h2>
+      <div className="grid mb-8 md:grid-cols-2">
+        <ChartCard title="Revenue">
+          <Doughnut {...doughnutOptions} />
+          <ChartLegend legends={doughnutLegends} />
+        </ChartCard>
+
+        <ChartCard title="Traffic">
+          <Line {...lineOptions} />
+          <ChartLegend legends={lineLegends} />
+        </ChartCard>
+      </div>
+
+      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
         Big section cards
       </h2>
 
@@ -105,21 +120,6 @@ function Cards() {
             </p>
           </CardBody>
         </Card>
-      </div>
-
-      <h2 className="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
-        Charts
-      </h2>
-      <div className="grid gap-6 mb-8 md:grid-cols-2">
-        <ChartCard title="Revenue">
-          <Doughnut {...doughnutOptions} />
-          <ChartLegend legends={doughnutLegends} />
-        </ChartCard>
-
-        <ChartCard title="Traffic">
-          <Line {...lineOptions} />
-          <ChartLegend legends={lineLegends} />
-        </ChartCard>
       </div>
     </>
   );
