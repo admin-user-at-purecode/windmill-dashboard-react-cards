@@ -17,7 +17,8 @@
         "fullWidthCard",
         "cardWithHeading",
         "CTA",
-        "pageTitle"
+        "pageTitle",
+        "Table"
 
     ],
     "component_counts":
@@ -46,7 +47,7 @@
 
         "cardWithHeading":{
             "count": 2,
-            "location": "bottom of the page",
+            "location": "above the Table",
             "description": "contains heading and text"
         },
 
@@ -59,6 +60,19 @@
         "pageTitle":{
             "count":1,
             "location":"below the Header and right of the Sidebar"
-        }
+        },
+        "Table":{
+            "count":1,
+            "location": "at the bottom of the page",
+            "description": "a table with 10 rows and 4 columns containing names, amount, status, and date",
+            "children": {
+                "pagination": {
+                  "count": 1,
+                  "location": "bottom of the Table",
+                  "description": "a feature that allows the table to be paginated"
+                }
+            }
+        },
+
     }
 }
